@@ -20,7 +20,7 @@ header {
 }
     img{
         max-width: 80px;
-        justify-self: center;
+        justify-self: right;
     }
 
 /* ---- Navigation Elements ---- */
@@ -29,6 +29,7 @@ nav {
     font-family: Mukta, Helvetica, sans-serif;
     color: white;
     text-align: center;
+    margin-top: -1em;
 }
 
     nav a{
