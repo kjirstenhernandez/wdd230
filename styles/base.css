@@ -13,19 +13,19 @@ header {
     background-color: #1d4d72;
     font-family: Oswald, Tahoma, sans-serif;
     color: white;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
     
 }
     header img{
         max-width: 80px;
-        grid-column: 1/2
+        justify-content: center;
+        
+    }
+    header h1{
+       padding: center;
     }
 
-    .header{
-        grid-column: 2 / 4;
-    }
 
 
 /* ---- Navigation Elements ---- */
@@ -68,8 +68,10 @@ nav {
     }
 
     .card {
-        border: solid #1d4d72
+        border: solid #1d4d72;
+        min-width: 15em;
     }
+
     .card, h3{
         background-color: #1d4d72;
         font-family: Oswald, Tahoma, sans-serif;
