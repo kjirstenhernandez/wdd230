@@ -1,0 +1,86 @@
+
+/* ---------Header Element----------- */
+header {
+    background-color: #094074;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+
+}
+
+        header h1{
+            font-size: 2.3rem;
+            font-weight: 600;
+        }
+
+        header h2{
+            font-weight: 500;
+            font-size: 2rem;
+        }
+
+/* --------- Main Content ----------- */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card{
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #EBF2FA;
+    border: solid #3c6997da;
+    grid-column: span 1;
+    align-items: center;
+}
+
+.card h2{
+    background-color: #3C6997;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    padding: 1rem;
+    margin: -2rem -2rem 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.card p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.card a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.card img{
+   
+   width: 100%;
+   height: auto;
+   margin-top: 1rem;
+}
+
+/* Tablet View */
+@media only screen and (min-width: 37.5em){
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+    .card{
+        grid-column: span 1;
+    }
+    
+}
+
+/* Desktop View */
+@media only screen and (min-width: 60em){
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card{
+        grid-column: span 1;
+    }
+}
