@@ -70,6 +70,7 @@ nav {
         background-color: white;
         text-decoration: none;
         color: #1d4d72;
+        margin: 0.5rem auto;
     }
 
     .card, a{
