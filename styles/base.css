@@ -14,7 +14,7 @@ header {
     font-family: Oswald, Tahoma, sans-serif;
     color: white;
     text-align: center;
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 150px auto;
     
 }
