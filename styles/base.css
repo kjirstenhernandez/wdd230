@@ -15,10 +15,10 @@ header {
     color: white;
     text-align: center;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: auto auto;
     
 }
-    img{
+    header img{
         max-width: 80px;
         justify-self: right;
     }
