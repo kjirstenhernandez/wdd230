@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Oswald:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Oswald:wght@300;400;500;600;700&display=swap'); */
 
 /* removing white box around page */
 body{
@@ -15,16 +15,16 @@ header {
     color: white;
     text-align: center;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     
 }
     header img{
         max-width: 80px;
-        justify-self: center;
+        grid-column: 1/2
     }
 
     .header{
-        grid-column: 1 auto;
+        grid-column: 2 / 4;
     }
 
 
