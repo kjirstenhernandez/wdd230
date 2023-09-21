@@ -1,4 +1,31 @@
-@media only screen and (min-width: 40em){
+@media only screen and (min-width: 500px){
+
+    nav ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    main h2 {
+        grid-column: span 3;
+    }
+    #learning-activites {
+        grid-column: span 2;
+    }
+        #learning-activities a{
+            padding: 0.5em;
+        }
+    
+    #information {
+        grid-column: span 1;
+        
+    }
+    .card{
+        width: fit-content;
+    }
     .card h3 {
         padding: 1rem;
     }
@@ -6,4 +33,5 @@
     .card p{
         margin: 0 auto;
     }
+
 }
