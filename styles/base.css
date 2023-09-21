@@ -20,8 +20,13 @@ header {
 }
     header img{
         max-width: 80px;
-        justify-self: right;
+        justify-self: center;
     }
+
+    .header{
+        grid-column: 1 auto;
+    }
+
 
 /* ---- Navigation Elements ---- */
 nav {
