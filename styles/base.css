@@ -15,10 +15,12 @@ header {
     color: white;
     display: flex;
     justify-content: center;
+    width: 100%;
     
 }
     header img{
-        max-width: 80px;
+        max-inline-size: 5em;
+        object-fit: scale-down;
         justify-content: center;
         
     }
@@ -26,6 +28,10 @@ header {
        padding: 1rem;
     }
 
+footer {
+    background-color: #1d4d72;
+    font-family: Oswald, Tahoma, sans-serif;
+}
 
 
 /* ---- Navigation Elements ---- */
@@ -43,6 +49,41 @@ nav {
         color: white;
     }
 
+    #navMenu {
+        display: block;
+        font-size: 2rem;
+        padding: .5rem .75rem;
+        background-color: #000;
+        color: white;
+    }
+    #navMenu::before {
+        content: "≣";
+    }
+
+    .menu {
+        /* list-style: none; */
+        margin: 0 auto;
+        max-width: 760px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu li{
+        display:none;
+    }
+    
+    .menu a{
+        display: block;
+    }
+    .open li{
+        display: block;
+    }
+
+    #navMenu.open::before{
+        content:"❌";
+    }
+    
+
 /* ------ MAIN ELEMENT ----- */
 
     main {
@@ -58,6 +99,7 @@ nav {
         font-weight: 300;
         grid-column: span 1;
     }
+
     #learning-activites {
         grid-column: span 1
     }
@@ -65,11 +107,12 @@ nav {
     
     #information {
         grid-column: span 1
+        
     }
 
     .card {
         border: solid #1d4d72;
-        min-width: 15em;
+        width: 100%;
     }
 
     .card, h3{
@@ -90,10 +133,16 @@ nav {
     .card, a{
         text-decoration: none;
         color: #1d4d72;
+        
     }
 
     .card, ul{
         list-style-type: none;
     }
 
+    iframe{
+        grid-column: span 1;
+        margin: 1em auto;
+        min-width: 100%
+    }
 

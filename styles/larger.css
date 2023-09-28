@@ -1,8 +1,26 @@
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 40em){
 
-    nav ul{
+    /* nav ul{
         display: flex;
         justify-content: space-evenly;
+    } */
+
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .menu li{
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .menu a{
+        text-align: center;
+    }
+
+    #navMenu{
+        display: none;
     }
 
     main {
@@ -34,4 +52,9 @@
         margin: 0 auto;
     }
 
+    iframe{
+        grid-column: span 2;
+        margin: 1em auto;
+        min-width: 100%
+    }
 }
