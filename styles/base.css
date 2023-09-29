@@ -31,7 +31,16 @@ header {
 footer {
     background-color: #1d4d72;
     font-family: Oswald, Tahoma, sans-serif;
+    color: white;
+    display: grid;
+    justify-content: space-evenly;
+    text-decoration: none;
 }
+
+    footer p{
+        background-color: #1d4d72;
+        color: white;
+    }
 
 
 /* ---- Navigation Elements ---- */
