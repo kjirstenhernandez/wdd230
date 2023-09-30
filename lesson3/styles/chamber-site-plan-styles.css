@@ -1,0 +1,91 @@
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+main{
+    padding: 3em;
+}
+
+header{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #00507A;
+    color: white;
+}
+
+.wf-header{
+    background-color: #00507A;
+    color: white;
+    padding: .5em;
+    margin: .5em auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+main h3{
+    color: #00507A;
+    font-weight: 500;
+}
+
+p, ul {
+  font-family: "Open Sans", sans-serif;
+}
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+.subheading{
+  margin: 1rem;
+}
+.section-header{
+  background-color: #00507A;
+  color: white;
+  padding: .5rem;
+  margin: 1rem auto;
+}
+.wf-section h3{
+  padding: 2em;
+}
+
+/* Table Information */
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+    font-family: 'Bitter', serif;
+  }
+  .colors td{
+    font-family: 'Open Sans', sans-serif;
+    width: 25%;
+    height: 3em;
+  }
+
+  #primary{
+    background-color: #00507A;
+    color: white;
+  }
+  #secondary{
+    background-color: #C8BFBC;
+  }
+
+  #accent1 {
+    background-color: #11202C;
+    color: white;
+  }
+
+  #accent2{
+    background-color: #FCA311;
+  }
+
