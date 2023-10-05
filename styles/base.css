@@ -6,6 +6,7 @@ body{
     font-size: 22px;
     margin: 0;
     padding: 0;
+    min-width: 100%;
 }
 
 /* ---- Header and Footer Elements ---- */
@@ -15,7 +16,7 @@ header {
     color: white;
     display: flex;
     justify-content: center;
-    width: 100%;
+    
     
 }
     header img{
@@ -152,6 +153,7 @@ nav {
     iframe{
         grid-column: span 1;
         margin: 1em auto;
-        min-width: 100%
+        min-width: 100%;
+        width: 100% !important; /* Width must remain at 100% otherwise it affects the width of the header and footer */
     }
 
