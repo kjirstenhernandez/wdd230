@@ -1,0 +1,187 @@
+body{
+    background-color: #FFFFFF;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: #00507A;
+    --secondary-color: #C8BFBC;
+    --accent1-color: #11202C;
+    --accent2-color: #FCA311;
+    --light-text: #FFFFFF;
+    --dark-text: #11202C;
+    --header-font: "Bitter", Tahoma, serif;
+    --text-font: "Open Sans", sans-serif;
+}
+/*-------------- HEADER ELEMENTS --------------*/
+
+header{
+    background-color: var(--primary-color);
+    display: flex;
+    grid-template-columns: 1fr .5fr 1fr;
+    width: 100%;
+}
+
+header h1{
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    color: var(--light-text);
+    text-align: left;
+    padding: 1rem;
+}
+
+.banner-img img{
+    max-width: 100%;
+    object-fit: scale-down;
+    margin: -1rem 0;
+}
+    /*--- Navigation Elements (mobile) ---*/
+ nav {
+    background-color: #000;
+    font-family: var(--text-font);
+    text-align: center;
+    color: white;
+    /* margin: -1rem; */
+    padding: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--light-text);
+}
+
+#navButton {
+    display: block;
+    font-size: 2rem;
+    padding: .5rem .75rem;
+    background-color: var(--primary-color);
+    color: var(--light-text);
+}
+
+#navButton::before {
+    content: "≣";
+}
+
+.nav-menu{
+    margin: 0 auto;
+    max-width: 760px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-menu li{
+    display: none;
+}
+
+.nav-menu a{
+    display: none;
+}
+
+#navButton.open::before{
+    content: "❌"
+}
+
+
+
+/*------ MAIN ELEMENTS ------*/
+
+/* Row 1 */
+.flex-1 {
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+#mission-statement{
+    background-color: var(--secondary-color);
+    font-family: var(--text-font);
+    color: var(--dark-text);
+    padding: 3em 1em
+}
+#weather{
+    background-color: #C8BFBC;
+}
+
+/* Row 2 */
+.flex-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+#action-call{
+    background-color: var(--primary-color);
+    font-family: var(--text-font);
+    color: var(--light-text);
+    padding: 3em 1em;
+}
+#business-box img{
+    width: 100%;
+    object-fit: scale-down;
+}
+#business-intro {
+    background-color: #C8BFBC;
+    font-family: var(--text-font);
+    color: var(--light-text);
+}
+
+#business-info{
+    background-color: #C8BFBC;
+    font-family: var(--header-font);
+    color: var(--dark-text);
+    font-weight: 300;
+}
+
+/* --- Table of Events --- */
+.upcoming-events{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.upcoming-events h2{
+    font-family: var(--header-font);
+    color: var(--primary-color);
+}
+
+.table{
+    width: 100%;
+    margin-top: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--text-font);
+}
+
+.row{
+    display: grid;
+	grid-template-columns: 100px 100px;
+	align-items: center;
+	text-align: center;
+}
+
+.col {
+	padding: 10px;
+}
+
+.row:first-child{
+    font-weight: 700;
+}
+
+/* -----------  FOOTER ELEMENTS -----------*/ 
+
+footer{
+    font-family: var(--text-font);
+    background-color: var(--primary-color);
+    color:var(--light-text);
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.badge{
+    width: 10%;
+    object-fit: scale-down;
+}

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -19,40 +20,63 @@
 <body>
     <header>
         <h1>Springville<br>Chamber of Commerce</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Directory</a>
-            <a href="#">Discover</a>
-            <a href="#">Join</a>
-        </nav>
     </header>
-    <div class="banner-img" src="images/springville-panorama.webp" alt="springville-panorama"></div>
-    <main class="main-grid">
-        <div class="mission-statement">
-            <p>Here is the mission statement and purpose of the chamber</p>
-        </div>
-        <div class="weather">
-
-        </div>
-        <section class="action-call">
-            <h3>Get Involved</h3>
-            <p>Join the Chamber of Commerce</p>
-            <button>Join</button>
-        </section>
-        <div id="business-week">
-            <div id="business-box">
-                <img id="business-img" src="images/zeppes.jpeg" alt="zeppes">
+    <nav>
+        <button id="navButton"></button>
+        <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <div class="banner-img">
+        <img src="images/springville-panorama.jpeg" alt="springville-panorama" width="2918" height="896">
+    </div>
+    <main>
+        <div class="flex-1">
+            <div id="mission-statement">
+                <p>Here is the mission statement and purpose of the chamber</p>
             </div>
-            <div id="business-intro">
-                <h6>Business of<br>the Week</h6>
+            <div id="weather">
+                <p>this is a placeholder</p>
             </div>
-            <div id="business-info">
-                <h2>Company Name</h2>
+        </div>
+        <div class="flex-2">
+            <section id="action-call">
+                <h3>Get Involved</h3>
+                <p>Join the Chamber of Commerce</p>
+                <button>Join</button>
+            </section>
+            <div id="business-week">
+                <div id="business-box">
+                    <img id="business-img" src="images/zeppes.jpeg" alt="zeppes">
+                </div>
+                <div id="business-intro">
+                    <h6>Business of<br>the Week</h6>
+                </div>
+                <div id="business-info">
+                    <h2>Company Name</h2>
+                </div>
             </div>
         </div>
         <section class="upcoming-events">
             <h2>Upcoming Events</h2>
-            <table class="events">
+            <div class="table">
+                <div class="row">
+                    <div class="col">Date</div>
+                    <div class="col">Event</div>
+                </div>
+                <div class="row">
+                    <div class="col">Oct 31</div>
+                    <div class="col">Doggy Trunk-or-Treat</div>
+                </div>
+                <div class="row">
+                    <div class="col">Nov 3</div>
+                    <div class="col">Farmer's Market</div>
+                </div>
+            </div>
+            <!-- <table class="events">
                 <tr>
                     <th>Date</th>
                     <th>Event</th>
@@ -65,7 +89,7 @@
                     <td>Nov 3</td>
                     <td>Farmer's Market</td>
                 </tr>
-            </table>
+            </table> -->
         </section>
     </main>
     <footer>
@@ -77,7 +101,7 @@
                 <img class="badge" src="images/insta-icon.png" alt="instagram">
             </a>
             <a href="#" target="_blank">
-                <img class="badge" src="images/twitter-icon.jpeg" alt="facebook">
+                <img class="badge" src="images/twitter-icon.png" alt="facebook">
             </a>
         </div>
         <div class="foot-nav">
