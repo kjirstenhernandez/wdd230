@@ -38,17 +38,16 @@ header h1{
 }
     /*--- Navigation Elements (mobile) ---*/
  nav {
-    background-color: #000;
+    background-color: var(--primary-color);
     font-family: var(--text-font);
     text-align: center;
     color: white;
-    /* margin: -1rem; */
     padding: 1rem;
 }
 
 nav a{
     text-decoration: none;
-    color: var(--light-text);
+    color: white;
 }
 
 #navButton {
@@ -75,7 +74,11 @@ nav a{
 }
 
 .nav-menu a{
-    display: none;
+    display: block;
+}
+
+.open li{
+    display:block;
 }
 
 #navButton.open::before{
