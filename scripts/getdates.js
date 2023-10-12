@@ -3,4 +3,4 @@ document.getElementById('currentYear').textContent = new Date().toLocaleDateStri
 const todaysDate = new Date();
 
 let lastModif = new Date(document.lastModified);
-document.getElementById('lastModified').textContent = lastModif;
+document.getElementById('lastModified').textContent = `Last Modified: ${lastModif};`
