@@ -3,7 +3,7 @@ const addButton = document.querySelector("button");
 const chapterList = document.querySelector("#list");
 
 addButton.addEventListener("click", () => {
-    if (chapterInput === ""){
+    if (chapterInput.value === ""){
         console.log("Error: Input is Blank");
         chapterInput.focus();
     }
