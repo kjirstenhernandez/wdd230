@@ -1,6 +1,10 @@
-@media only screen and (min-width: 40em){
+@media only screen and (min-width: 70em){
 
-
+/* -------NAVIGATION AND HEADER---------- */
+    
+    nav{
+        background-color: rgba(0, 0, 0, 0)
+    }
     .nav-menu {
         display: flex;
         flex-direction: row;
@@ -30,4 +34,12 @@
         justify-content: space-evenly;
     }
     
+/* ---------- Banner ---------- */
+    .banner-img img{
+        max-width: 100%;
+        object-fit: scale-down;
+        margin-top: -100px;
+        z-index: -1;
+    }
+
 }

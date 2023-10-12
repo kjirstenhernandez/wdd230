@@ -21,6 +21,7 @@ header{
     display: flex;
     grid-template-columns: 1fr .5fr 1fr;
     width: 100%;
+    position: absolute;
 }
 
 header h1{
@@ -34,15 +35,20 @@ header h1{
 .banner-img img{
     max-width: 100%;
     object-fit: scale-down;
-    margin: -1rem 0;
+    margin-top: -170px;
+    z-index: -1;
 }
     /*--- Navigation Elements (mobile) ---*/
  nav {
-    background-color: var(--primary-color);
+    background-color: #004f7a8d;
     font-family: var(--text-font);
+    font-weight: 600;
     text-align: center;
     color: white;
     padding: 1rem;
+    position: absolute;
+    top: 9rem;
+    width: 100%;
 }
 
 nav a{

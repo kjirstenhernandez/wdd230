@@ -1,0 +1,11 @@
+@media only screen and (min-width: 30em){
+
+/* -------NAVIGATION AND HEADER---------- */
+.banner-img img{
+    max-width: 100%;
+    object-fit: scale-down;
+    margin-top: -200px;
+    z-index: -1;
+}
+    
+}
