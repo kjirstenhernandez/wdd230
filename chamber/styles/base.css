@@ -230,7 +230,7 @@ nav a{
 .upcoming-events h2{
     padding-top: 2rem;
     font-family: var(--header-font);
-    color: var(--light-text);
+    color: var(--dark-text);
 }
 
 .table{
