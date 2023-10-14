@@ -1,5 +1,5 @@
 body{
-    background-color: #FFFFFF;
+    background-color: var(--mode-color);
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -11,8 +11,21 @@ body{
     --accent2-color: #FCA311;
     --light-text: #FFFFFF;
     --dark-text: #11202C;
+    --mode-color: #ffffff;
     --header-font: "Bitter", Tahoma, serif;
     --text-font: "Open Sans", sans-serif;
+}
+
+/* Dark Mode Test */
+
+.dark-mode {
+    --mode-color: #032639;
+    --primary-color: #e1e2de;
+    --secondary-color: #C8BFBC;
+    --light-text: #091223;
+    --dark-text:
+
+
 }
 /*-------------- HEADER ELEMENTS --------------*/
 
@@ -52,7 +65,7 @@ header h1{
 
 nav a{
     text-decoration: none;
-    color: white;
+    color: var(--light-text);
 }
 
 #navButton {
@@ -137,11 +150,11 @@ nav a{
         }
 
         input:checked + .slider {
-        background-color: var(--dark-text)
+        background-color: #11202C;
         }
 
         input:focus + .slider {
-        box-shadow: 0 0 1px var(--dark-text)
+        box-shadow: 0 0 1px #11202C;
         }
 
         input:checked + .slider:before {
@@ -210,17 +223,20 @@ nav a{
 
 /* --- Table of Events --- */
 .upcoming-events{
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
+    background-color: #C8BFBC;
 }
 
 .upcoming-events h2{
+    padding-top: 2rem;
     font-family: var(--header-font);
-    color: var(--primary-color);
+    color: var(--light-text);
 }
 
 .table{
+    padding: 1rem 2rem;
     width: 100%;
     margin-top: 2rem;
     margin: 0 auto;
@@ -263,5 +279,5 @@ footer{
 
 .foot-nav a {
     text-decoration: none;
-    color: white;
+    color: var(--light-text);
 }
