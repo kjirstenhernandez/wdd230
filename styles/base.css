@@ -110,6 +110,26 @@ nav {
         grid-column: span 1;
     }
 
+    .hero {
+        position: relative;
+    }
+
+    .hero img{
+        width: 100%;
+        height: auto;
+        grid-column: span 1;
+    }
+
+    .hero-label {
+        position: absolute;
+        top: 10px;
+        background-color: #ffffff;
+        opacity: 0.75;
+        padding: 0.5em;
+        box-shadow: 10px 5px 5px #00000043;
+        font-size: 70%;
+    }
+
     #learning-activites {
         grid-column: span 1
     }
@@ -125,7 +145,7 @@ nav {
         width: 100%;
     }
 
-    .card, h3{
+    .card h3{
         background-color: #1d4d72;
         font-family: Oswald, Tahoma, sans-serif;
         color: white;
@@ -134,7 +154,7 @@ nav {
 
     .card, p {
         font-family: Mukta, Helvetica, sans-serif;
-        background-color: white;
+        
         text-decoration: none;
         color: #1d4d72;
         margin: 1em auto;
@@ -153,7 +173,7 @@ nav {
     iframe{
         grid-column: span 1;
         margin: 1em auto;
-        min-width: 100%;
+        max-width: 100%;
         width: 100% !important; /* Width must remain at 100% otherwise it affects the width of the header and footer */
     }
 

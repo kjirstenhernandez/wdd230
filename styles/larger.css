@@ -28,9 +28,24 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
+
     main h2 {
         grid-column: span 3;
     }
+
+    .hero {
+        grid-column: span 3;
+    }
+
+    .hero-label{
+        top: 30px;
+        left: 35px;
+        font-size: 100%;
+    }
+    .hero-label p {
+        margin: 0;
+    }
+
     #learning-activites {
         grid-column: span 2;
     }
