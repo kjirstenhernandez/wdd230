@@ -27,6 +27,8 @@ body{
 
 /*-------------- HEADER ELEMENTS --------------*/
 
+
+
 header{
     background-color: var(--primary-color);
     display: flex;
@@ -35,18 +37,53 @@ header{
     position: absolute;
 }
 
-header h1{
-    font-family: 'Bitter', serif;
-    font-weight: 500;
-    color: var(--light-text);
-    text-align: left;
-    padding: 1rem;
+.logo {
+    width: 60px;
+    height: auto;
+    align-content: center;
+    padding: 2rem 0.25rem 2rem 1rem;
+    /* padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 20px; */
 }
 
-.banner-img img{
+header h1{
+    font-family: 'Bitter', serif;
+    font-size: 1.15em;
+    color: var(--light-text);
+    text-align: left;
+    padding: 1.75rem;
+}
+
+/* Remove After W06 */
+        .hero{
+            position: relative;
+            z-index: -1;
+            text-align: center;
+        }
+
+        .small-view {
+            position: absolute;
+            top: 6em;
+            font-size: 1.5em;
+            background-color: #FCA311;
+        }
+
+        .large-view{
+            display: none;
+        }
+
+        .medium-view{
+            display: none;
+        }
+
+
+
+.hero img{
     max-width: 100%;
+    text-align: center;
     object-fit: scale-down;
-    margin-top: -170px;
+    margin-top: 140px;
     z-index: -1;
 }
     /*--- Navigation Elements (mobile) ---*/
@@ -179,12 +216,16 @@ nav a{
     flex-direction: column;
 }
 #mission-statement{
+    text-align: center;
     background-color: var(--secondary-color);
     font-family: var(--text-font);
     color: var(--dark-text);
-    padding: 3em 1em
+    padding: 1em;
+    margin: 1em;
+    font-size: 90%;
 }
 #weather{
+    margin: 1em;
     background-color: #C8BFBC;
 }
 
@@ -202,14 +243,30 @@ nav a{
     color: var(--light-text);
     padding: 3em 1em;
 }
-#business-box img{
+.business-week {
+    position: relative;
+}
+.business-week img{
     width: 100%;
     object-fit: scale-down;
 }
-#business-intro {
-    background-color: #C8BFBC;
+
+.business-label {
+    position: absolute;
+    top: 2em;
+    left: 20px;
+    padding: 0px 2em;
+    background-color: #c8bfbcc8;
     font-family: var(--text-font);
     color: var(--light-text);
+    box-shadow: 10px 5px 5px #9d9492;
+    margin: 1em 2em;
+}
+
+.business-label h6{
+    font-size: 90%;
+    margin: auto;
+    padding: .5em;
 }
 
 #business-info{

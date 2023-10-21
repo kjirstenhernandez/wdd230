@@ -1,11 +1,43 @@
 @media only screen and (min-width: 30em){
 
 /* -------NAVIGATION AND HEADER---------- */
-.banner-img img{
-    max-width: 100%;
-    object-fit: scale-down;
-    margin-top: -200px;
-    z-index: -1;
+.logo {
+    width: 70px;
 }
-    
+
+header h1{
+    font-size: 1.5em;
+    padding: 1rem .5rem;
+}
+
+.hero img{
+    margin-top: 130px;
+}
+
+.business-label{
+    top: 2.5em;
+}
+.business-label h6{
+    font-size: 110%;
+    margin: auto;
+    padding: 1em;
+}
+
+/* REMOVE AFTER W06 */
+
+    .small-view {
+        display: none;
+    }
+
+    .large-view{
+        display: none;
+    }
+
+    .medium-view{
+        display: block;
+        position: absolute;
+        top: 5em;
+        font-size: 2em;
+        background-color: #fc11e8;
+    }
 }
