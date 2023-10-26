@@ -76,7 +76,7 @@
     margin: auto;
     padding: 1em;
 }
-}
+
 
 /* ==========================  DISCOVERY: MAIN ELEMENTS  ========================== */
 
@@ -90,4 +90,6 @@
 
 .photoContainer {
     grid-column: 2/3;
+}
+
 }
