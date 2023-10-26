@@ -91,5 +91,7 @@
 .photoContainer {
     grid-column: 2/3;
 }
+.sidePhoto:hover{
+    box-shadow: 0 0 50px #333;}
 
 }
