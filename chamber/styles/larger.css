@@ -67,7 +67,7 @@
         }
 
 
-/* --------- MAIN ELEMENTS -------- */
+/* ========================== MAIN PAGE: MAIN ELEMENTS ========================== */
 .business-label {
     top: 3em;
 }
@@ -76,4 +76,18 @@
     margin: auto;
     padding: 1em;
 }
+}
+
+/* ==========================  DISCOVERY: MAIN ELEMENTS  ========================== */
+
+.grid {
+    grid-template-columns: 1fr 2fr;
+}
+
+.sidebar {
+    grid-column: 1/2;
+}
+
+.photoContainer {
+    grid-column: 2/3;
 }

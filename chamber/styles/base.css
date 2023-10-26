@@ -207,7 +207,7 @@ nav a{
         border-radius: 50%;
         }
 
-/*------ MAIN ELEMENTS ------*/
+/* ==========================  MAIN PAGE: MAIN ELEMENTS  ========================== */
 
 /* Row 1 */
 .flex-1 {
@@ -347,4 +347,38 @@ footer{
 .foot-nav a {
     text-decoration: none;
     color: var(--light-text);
+}
+
+
+/* ==========================  DISCOVERY: MAIN ELEMENTS  ========================== */
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+.sidebar {
+    grid-column: 1/2;
+}
+
+.photoContainer {
+    grid-column: 1/2;
+
+
+/* .sidePhoto {
+    position: relative;
+}
+
+.sidePhoto picture{
+    width: 100%;
+    height: auto;
+}
+
+.picture-label {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    background-color: var(--secondary-color);
+    color: var(--dark-text);
+    padding: .8rem; */
 }
