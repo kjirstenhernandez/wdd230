@@ -369,7 +369,12 @@ footer{
     grid-column: 1/2;
 }
 
-.grid h4 {
+.photoContainer h3{
+    background-color: var(--secondary-color);
+    padding: 1rem;
+}
+
+.grid h3, h4 {
     font-family: var(--header-font);
     color: var(--dark-text);
 }
