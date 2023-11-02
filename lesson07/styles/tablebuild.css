@@ -1,0 +1,52 @@
+:root{
+    --border-color: 1px solid rgba(138, 138, 138, 0.664);
+}
+
+table{
+    border-spacing: 0;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+thead th{
+    padding: 10px;
+}
+
+.line > th{
+    border-left: var(--border-color);
+    border-right: var(--border-color);
+    border-bottom: var(--border-color);
+}
+
+#line1 th, .line td{
+    border-top: var(--border-color);
+    border-right: var(--border-color);
+}
+
+#line3 td{
+    border-bottom: var(--border-color);
+}
+
+.plans {
+    padding: 10px;
+    background-color: gray;
+}
+
+#line2 {
+    background-color: rgba(207, 207, 207, 0.856);
+}
+
+tr th{
+    padding: 10px;
+}
+
+tr td{
+    text-align: center;
+}
