@@ -1,3 +1,10 @@
+:root{
+    --primary-color: #1d4d72;
+    --background-color: #C8BFBC;
+    --header-font: "Oswald", Tahoma, sans-serif;
+    --text-font: Mukta, Helvetica, sans-serif;
+
+}
 /* ---- Header and Footer Elements ---- */
 header {
     background-color: #1d4d72;
@@ -103,10 +110,10 @@ form legend {
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #1d4d72;
+    border: 1px solid var(--primary-color);
     border-radius: 10px;
     padding: 0.5rem;
-    font-family: Oswald, Tahoma, sans-serif;
+    font-family: var(--header-font);
 }
 
 form label.top input{
@@ -115,9 +122,9 @@ form label.top input{
     width: 100%;
     max-width: 20rem;
     background-color: #1d4d721d;
-    border: solid .5px #5a5757;
+    border: solid .5px var(--primary-color);
     border-radius: 5px;
-    font-family: Mukta, Helvetica, sans-serif;
+    font-family: var(--text-font);
     font-size: 1rem;
 }
 
@@ -129,7 +136,7 @@ form label {
 
 form .submitButton {
     border: none;
-    background-color: #1d4d72;
+    background-color: var(--primary-color);
     color: white;
     border-radius: 1rem;
     padding: 1rem 2rem;
@@ -157,7 +164,7 @@ form label.top #pagerating{
 }
 
 #rangevalue{
-    color:navy;
+    color: var(--primary-color);
 }
 
 #rangevalues{
