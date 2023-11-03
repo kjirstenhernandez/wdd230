@@ -1,0 +1,154 @@
+/* ---- Header and Footer Elements ---- */
+header {
+    background-color: #1d4d72;
+    font-family: Oswald, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+    header img{
+        max-height: 6em;
+        width: auto;
+        object-fit: scale-down;        
+    }
+
+    header h1{
+       padding: 1rem;
+    }
+
+footer {
+    background-color: #1d4d72;
+    font-family: Oswald, Tahoma, sans-serif;
+    color: white;
+    display: grid;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+    footer p{
+        background-color: #1d4d72;
+        color: white;
+    }
+
+
+/* ---- Navigation Elements ---- */
+nav {
+    background-color: black;
+    font-family: Mukta, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0.1rem;
+    
+}
+
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+
+    #navMenu {
+        display: block;
+        font-size: 2rem;
+        padding: .5rem .75rem;
+        background-color: #000;
+        color: white;
+    }
+    #navMenu::before {
+        content: "≣";
+    }
+
+    .menu {
+        /* list-style: none; */
+        margin: 0 auto;
+        max-width: 760px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu li{
+        display:none;
+    }
+    
+    .menu a{
+        display: block;
+    }
+    .open li{
+        display: block;
+    }
+
+    #navMenu.open::before{
+        content:"❌";
+    }
+    
+/* --------- MAIN --------- */
+
+h1{
+    font-family: Oswald, Tahoma, sans-serif;
+    padding: 0 2rem;
+    margin: 3rem auto 0rem;
+    color: #1d4d72;
+
+}
+
+
+/* ------ FORM STYLING ------- */
+form legend {
+    margin: 0 3rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #1d4d72;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-family: Oswald, Tahoma, sans-serif;
+}
+
+form label.top input{
+    display: block;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #1d4d721d;
+    border: solid .5px #5a5757;
+    border-radius: 5px;
+    font-family: Mukta, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+form label {
+    display: block;
+    padding-top: 1rem;
+    color: #1d4d72;
+}
+
+form .submitButton {
+    border: none;
+    background-color: #1d4d72;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    width: 90%;
+    max-width: 20rem;
+    margin: 1rem 0.25rem;
+}
+
+#error {
+    margin-top: 0 auto;
+    color: red;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+
+
