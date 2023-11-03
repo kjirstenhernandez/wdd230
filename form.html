@@ -35,7 +35,7 @@
         <form method="get" action="record.html">
             <fieldset>
                 <legend>User Information</legend>
-                <label class="top">Username* <input type="text" id="username" name="username" pattern=".{8,13}" placeholder="Between 8-13 Characters"></label>
+                <label class="top">Username* <input type="text" id="username" name="username" pattern=".{8,13}" placeholder="Between 8-13 Characters" required></label>
                 <label class="top">Password* <input type="password" id="password" name="password" pattern="[a-zA-z0-9]{8,}" placeholder="Minimum 8 Characters, alpha-numeric" required></label>
                 <label class="top">Password Confirmation* <input type="password" id=password2 name="password2" placeholder="Must Match Above Password" required></label>
                 <p id="error"></p>
