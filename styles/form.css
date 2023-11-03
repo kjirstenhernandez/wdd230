@@ -152,4 +152,17 @@ form label.top input:required:valid{
     border-left: green solid 6px;
 }
 
+form label.top #pagerating{
+    width: 100%;
+}
 
+#rangevalue{
+    color:navy;
+}
+
+#rangevalues{
+    display: flex;
+    margin: 0 0 0 0;
+    justify-content: space-evenly;
+    width: 355px;
+}
