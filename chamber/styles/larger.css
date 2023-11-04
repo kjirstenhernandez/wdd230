@@ -95,3 +95,16 @@
     box-shadow: 0 0 50px #333;}
 
 }
+
+/* ==========================  JOIN: MAIN ELEMENTS  ========================== */
+.joinMain{
+    grid-template-columns: 1fr 1fr;
+}
+
+.formSection {
+    grid-column: 1/2;
+}
+
+.benefitSection{
+    grid-column: 2/3;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/chamber-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The official site for Springville Chamber of Commerce, giving all information for local events, memberships and benefits, and other local businesses." >
+    <meta name="author" content="Kjirsten Hernandez">
+    <title>Springville City Chamber of Commerce</title>
+    <meta property="og:title" content="The official site for the Springville Chamber of Commerce" >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://b1898799.smushcdn.com/1898799/wp-content/uploads/2022/10/Historic-Springville-Main-Street.jpg?lossy=0&strip=1&webp=1">
+    <meta property="og:url" content="https://kjirstenhernandez.github.io/wdd230/chamber/index.html" >
+</head>
+<body>
+    <header>
+        <a id="logo-link" href="index.html">
+            <img class="logo" src="images/chamber-logo.webp" alt="eyeLearn Logo">
+        </a>
+        <h1>Springville<br>Chamber of Commerce</h1>
+    </header>
+    <nav>
+        <button id="navButton"></button>
+        <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <div id="mode-switch">
+                  <!-- Rounded switch -->
+                  <label class="switch">
+                    <input id="checkbox" type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+    </div>
+    <div class="hero">
+        <picture>
+            <!-- REMOVE AFTER W06 -->
+            <source srcset="images/test-480.webp" media="(max-width: 480px)">
+            <source srcset="images/test-800.webp" media="(max-width: 800px)">
+            <source srcset="images/test-1000.webp" media="(max-width: 1000px)">
+            <img src="images/test-1600.webp" alt="springville-panorama">
+
+            <!-- CHANGE BACK AFTER W06 -->
+            <!-- <source srcset="images/springville-480.webp" media="(max-width: 480px)">
+            <source srcset="images/springville-800.webp" media="(max-width: 800px)">
+            <source srcset="images/springville-1000.webp" media="(max-width: 1000px)">
+            <img src="images/springville-main.webp" alt="springville-panorama"> -->
+        </picture>
+        <div class="hero-label">
+            <span class="large-view">Large Hero Image</span>
+            <span class="medium-view">Medium Hero Image</span>
+            <span class="small-view">Small Hero Image</span>
+        </div>
+    </div>
+    <main class="joinMain">
+        <div class="formSection" id="form">
+            <form method="get" action="thankyou.html">
+                <h2>Application to Join the Chamber</h2>
+                <fieldset class="">
+                    <legend>Applicant Information</legend>
+                    <label class="formHead"l>Applicant Information</label>
+                    <label class="top">First Name <input type="text" name="fname" id="fname" placeholder="Jane or John" required></label>
+                    <label class="top">Last Name <input type="text" name="lname" id="lname" placeholder="Doe" required></label>
+                    <label class="top">Title <input type="text" name="title" id="position" pattern="[a-zA-z]{7,}" placeholder="7 characters minimum"></label>
+                    <label class="top">Email <input type="email" name="email" id="email" placeholder="example@domain.com" required></label>
+                    <label class="top">Cellphone Number <input type="telephone" name="phone" id="phone" placeholder="1231231234"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="formHead">Business Information</label>
+                    <label class="top">Business/Organization Name <input type="text" name="company" id="company" required></label>
+                    <label class="top">Business/Organization Description <input type="text" name="description" id="coDescription"></label>
+                    <div>
+                        <label class="levels">Membership Level</label>
+                        <label class="side"><input type="radio" name="level" value="Non-Profit">  Non-Profit</label>
+                        <label class="side"><input type="radio" name="level" value="Bronze">  Bronze</label>
+                        <label class="side"><input type="radio" name="level" value="Silver">  Silver</label>
+                        <label class="side"><input type="radio" name="level" value="Gold">  Gold</label>    
+                    </div>
+                    <input type="hidden" name="timestamp" id="timestamp">
+                </fieldset>
+                <input type="submit" value="Join the Club" class="submitButton">
+            </form>
+        </div>
+        <div class="benefitSection" id="memBenefits">
+            <h2>Explanation of Member Benefits</h2>
+            <section class="benefits" id="npBenefits">
+                <h3>Non-Profit Membership</h3>
+                <div class="mini">
+                    <h5>Membership Dues</h5>
+                    <p>Free</p>
+                </div>
+                <div class="mini">
+                    <h5>Benefits</h5>
+                    <ul>
+                        <li>Booth Reservation at Local Events</li>
+                        <li>10% Discount from Other Chamber Businesses</li>
+                        <li>Customer Referrals</li>
+                        <li>Appearance in Newsletter</li>
+                    </ul>
+                </div>                    
+            </section>
+            <section class="benefits" id="bronzeBenefits">
+                <h3>Bronze Membership</h3>
+                <div class="mini">
+                    <h5>Membership Dues</h5>
+                    <p>$50 yearly</p>
+                </div>
+                <div class="mini">
+                    <h5>Benefits</h5>
+                    <ul>
+                        <li>Booth Reservation at Local Events</li>
+                        <li>15% Discount from Other Chamber Businesses</li>
+                        <li>Customer Referrals</li>
+                        <li>Appearance in Newsletter</li>
+                        <li>Bi-Monthly Advertisement in Local Newspaper</li>
+                    </ul>
+                </div>                    
+            </section>
+            <section class="benefits" id="silverBenefits">
+                <h3>Silver Membership</h3>
+                <div class="mini">
+                    <h5>Membership Dues</h5>
+                    <p>$125 yearly</p>
+                </div>
+                <div class="mini">
+                    <h5>Benefits</h5>
+                    <ul>
+                        <li>Booth Reservation at Local Events</li>
+                        <li>20% Discount from Other Chamber Businesses</li>
+                        <li>Customer Referrals</li>
+                        <li>Appearance in Newsletter</li>
+                        <li>Monthly Advertisement in Local Newspaper</li>
+                        <li>Access to Special Events</li>
+                        <li>Invitation to Monthly Lunch Meeting</li>
+                    </ul>
+                </div>                    
+            </section>
+            <section class="benefits" id="goldBenefits">
+                <h3>Gold Membership</h3>
+                <div class="mini">
+                    <h5>Membership Dues</h5>
+                    <p>$300 yearly</p>
+                </div>
+                <div class="mini">
+                    <h5>Benefits</h5>
+                    <ul>
+                        <li>Booth Reservation at Local Events</li>
+                        <li>35% Discount from Other Chamber Businesses</li>
+                        <li>Customer Referrals</li>
+                        <li>Appearance in Newsletter</li>
+                        <li>Weekly Advertisement in Local Newspaper</li>
+                        <li>Access to Special Events</li>
+                        <li>Invitation to Monthly Lunch Meeting</li>
+                        <li>Tickets to the State Annual Business Symposium</li>
+                    </ul>
+                </div>                    
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="#" target="_blank">
+                <img class="badge" src="images/fb-icon.png" alt="facebook">
+            </a>
+            <a href="#" target="_blank">
+                <img class="badge" src="images/insta-icon.png" alt="instagram">
+            </a>
+            <a href="#" target="_blank">
+                <img class="badge" src="images/twitter-icon.png" alt="facebook">
+            </a>
+        </div>
+        <div class="foot-nav">
+            <p>Kjirsten Hernandez</p>
+            <p>This is a project for WDD 230</p>
+            <p id="modified">Last Modification Date: </p>
+            <a href="#">Contact</a>
+            <a href="#">About Us</a>
+        </div>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
+</body>
+</html>

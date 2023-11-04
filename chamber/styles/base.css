@@ -14,6 +14,7 @@ body{
     --mode-color: #ffffff;
     --header-font: "Bitter", Tahoma, serif;
     --text-font: "Open Sans", sans-serif;
+    --light-button: #e5dedb;
 }
 
 /* Dark Mode Test */
@@ -23,7 +24,9 @@ body{
     --primary-color: #e1e2de;
     --secondary-color: #C8BFBC;
     --light-text: #091223;
+    --light-button: #00507A;
 }
+/* ====================== CONTINUING ELEMENTS ====================== */
 
 /*-------------- HEADER ELEMENTS --------------*/
 
@@ -32,7 +35,7 @@ body{
 header{
     background-color: var(--primary-color);
     display: flex;
-    grid-template-columns: 1fr .5fr 1fr;
+    /* grid-template-columns: 1fr .5fr 1fr; */
     width: 100%;
     position: absolute;
 }
@@ -398,3 +401,128 @@ footer{
     color: var(--dark-text);
     padding: .8rem;
 }
+
+/* ==========================  JOIN PAGE: MAIN ELEMENTS  ========================== */
+.joinMain {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.formSection {
+    grid-column: 1/2;
+}
+
+.benefitSection{
+    grid-column: 1/2;
+    padding: 2rem;
+}
+/* -------- Form Section -------- */
+.formHead{
+    font-family: var(--header-font);
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--light-text);
+}
+
+fieldset {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    margin: 1rem;
+    width: 80%;
+    max-width: 800px;
+}
+form legend{
+    margin: 1rem 0.5rem;
+    display: none;
+}
+
+.formSection h2 {
+    font-family: var(--header-font);
+    color: var(--dark-text);
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    font-family: var(--header-font);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--light-text);
+}
+
+fieldset label.top input{
+    /* display: block; */
+    padding: 0.75rem;
+    font-family: var(--text-font);
+    font-size: 0.75rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+div label.side {
+    font-family: var(--text-font);
+}
+
+.levels{
+    display: block;
+    font-family: var(--text-font);
+    font-weight: 600;
+}
+
+.submitButton{
+    background-color: var(--light-button);
+    font-family: var(--text-font);
+    font-size: 1rem;
+    margin: 1rem auto;
+    padding: .90rem;
+    color: var(--dark-text);
+    border-radius: .5rem;
+    
+    width: 75%;
+}
+    /*----- Required and Pattern-Specific Areas -----*/
+    
+    .formSection label.top input:required{
+        border-left: red solid 6px;
+    }
+
+    .formSection label.top input:required:valid{
+        border-left: green solid 6px;
+    }
+
+/* ------- Benefit Section ------- */
+
+.benefitSection h2{
+    font-family: var(--header-font);
+    color: var(--dark-text);
+}
+    /* Mini Sections */
+
+    .benefits{
+        padding: .75rem 0;
+    }
+    .benefits h3{
+        font-family: var(--text-font);
+        color: var(--dark-text);
+        font-size: 1.55rem;
+        font-weight: 700;
+    }
+
+    .mini {
+        background-color: var(--primary-color);
+        opacity: 90%;
+        border-radius: 10px;
+        padding: 1rem;
+        margin: 1rem 0;
+        color: var(--light-text);
+        font-family: var(--text-font);
+    }
+
+    .mini h5{
+        font-size: 1.35rem;
+        margin: 0.25rem;
+    }
+
+    .mini p, ul{
+        font-size: 1.25rem;
+    }
