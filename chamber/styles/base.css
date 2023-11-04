@@ -470,14 +470,15 @@ div label.side {
 }
 
 .submitButton{
+    display: block;
     background-color: var(--light-button);
     font-family: var(--text-font);
     font-size: 1rem;
     margin: 1rem auto;
     padding: .90rem;
     color: var(--dark-text);
+    border: none;
     border-radius: .5rem;
-    
     width: 75%;
 }
     /*----- Required and Pattern-Specific Areas -----*/
