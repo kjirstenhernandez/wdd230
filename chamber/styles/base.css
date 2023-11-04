@@ -459,6 +459,12 @@ fieldset label.top input{
     max-width: 20rem;
 }
 
+fieldset #coDescription{
+    display: block;
+    width: 100%;
+    max-width: 21rem;
+}
+
 div label.side {
     font-family: var(--text-font);
 }
