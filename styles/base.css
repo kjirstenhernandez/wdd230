@@ -171,6 +171,14 @@ nav {
         list-style-type: none;
     }
 
+    .card ul>li{
+        font-weight: 600;
+    }
+
+    li > a {
+        font-weight: 300;
+    }
+
     iframe{
         grid-column: span 1;
         margin: 1em auto;
