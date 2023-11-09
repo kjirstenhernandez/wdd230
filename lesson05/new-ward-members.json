@@ -1,0 +1,28 @@
+{
+    "familyName" : "Hernandez",
+    "dateMovedIn" : "7/18/2021",
+    "numberInFamily" : 4,
+    "visitedByBishopric" : true,
+    "individuals" : [
+        {
+            "name" : "Andrew",
+            "gender" : "male",
+            "birthdate" : "9/30/1990"
+        },
+        {
+            "name" : "Sarah",
+            "gender" : "female",
+            "birthdate" : "9/20/1991"
+        },
+        {
+            "name" : "George",
+            "gender" : "male",
+            "birthdate" : "11/18/2021"
+        },
+        {
+            "name" : "Caroline",
+            "gender" : "female",
+            "birthdate" : "6/03/2021"
+        }
+    ]
+}
