@@ -5,7 +5,7 @@
     "membership" : "Bronze",
     "links" : [
         {"web" : "www.daycresses.com", 
-        "logo" : "images/day-dresses.webp"
+        "logo" : "images/business-logos/day-dresses.webp"
         }
     ]},
     {"name" : "Ethos",
@@ -14,7 +14,7 @@
     "membership" : "Non-Profit",
     "links" : [
         {"web" : "www.ethosllc.com", 
-        "logo" : "images/ethos.webp"
+        "logo" : "images/business-logos/ethos.webp"
         }
     ]},
     {"name" : "Woks and Winks",
@@ -23,7 +23,7 @@
     "membership" : "Silver",
     "links" : [
         {"web" : "www.woksandwinks.com", 
-        "logo" : "images/woks-winks.webp"
+        "logo" : "images/business-logos/woks-winks.webp"
         }
     ]},
     {"name" : "Holy Eats",
@@ -32,7 +32,7 @@
     "membership" : "Silver",
     "links" : [
         {"web" : "www.holyeats.com", 
-        "logo" : "images/holy-eats.webp"
+        "logo" : "images/business-logos/holy-eats.webp"
         }
     ]},
     {"name" : "Digiarch",
@@ -41,7 +41,7 @@
     "membership" : "Bronze",
     "links" : [
         {"web" : "www.digiarch.com", 
-        "logo" : "images/digi-arch.webp"
+        "logo" : "images/business-logos/digi-arch.webp"
         }
     ]},
     {"name" : "Twinkle Tots Daycare",
@@ -50,7 +50,7 @@
     "membership" : "Silver",
     "links" : [
         {"web" : "www.twinkletots.com", 
-        "logo" : "images/twinkle-tots.webp"
+        "logo" : "images/business-logos/twinkle-tots.webp"
         }
     ]},
     {"name" : "Landmark Luxury Real Estate",
@@ -59,7 +59,7 @@
     "membership" : "Gold",
     "links" : [
         {"web" : "www.landmarkluxury.com", 
-        "logo" : "images/landmark-luxury.webp"
+        "logo" : "images/business-logos/landmark-luxury.webp"
         }
     ]}
 
