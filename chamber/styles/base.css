@@ -566,8 +566,8 @@ div label.side {
     /* -----  List vs. Grid Display ----- */
 
     .busGrid {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         align-items: center;
     }
 
