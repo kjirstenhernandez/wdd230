@@ -1,0 +1,68 @@
+{"businesses": [
+    {"name" : "Day Dresses",
+    "address" : "5 Campbell Street",
+    "phone" : "801-489-9256",
+    "membership" : "Bronze",
+    "links" : [
+        {"web" : "www.daycresses.com", 
+        "logo" : "images/day-dresses.webp"
+        }
+    ]},
+    {"name" : "Ethos",
+    "address" : "879 South Main Street, #104",
+    "phone" : "801-404-3973",
+    "membership" : "Non-Profit",
+    "links" : [
+        {"web" : "www.ethosllc.com", 
+        "logo" : "images/ethos.webp"
+        }
+    ]},
+    {"name" : "Woks and Winks",
+    "address" : "266 Oakwood Avenue",
+    "phone" : "801-325-1811",
+    "membership" : "Silver",
+    "links" : [
+        {"web" : "www.woksandwinks.com", 
+        "logo" : "images/woks-winks.webp"
+        }
+    ]},
+    {"name" : "Holy Eats",
+    "address" : "728 Nichols Court",
+    "phone" : "801-373-9700",
+    "membership" : "Silver",
+    "links" : [
+        {"web" : "www.holyeats.com", 
+        "logo" : "images/holy-eats.webp"
+        }
+    ]},
+    {"name" : "Digiarch",
+    "address" : "394 Roosevelt Street",
+    "phone" : "385-437-8091",
+    "membership" : "Bronze",
+    "links" : [
+        {"web" : "www.digiarch.com", 
+        "logo" : "images/digi-arch.webp"
+        }
+    ]},
+    {"name" : "Twinkle Tots Daycare",
+    "address" : "191 August Avenue",
+    "phone" : "385-260-6977",
+    "membership" : "Silver",
+    "links" : [
+        {"web" : "www.twinkletots.com", 
+        "logo" : "images/twinkle-tots.webp"
+        }
+    ]},
+    {"name" : "Landmark Luxury Real Estate",
+    "address" : "322 North Main Street, #103",
+    "phone" : "801-491-2488",
+    "membership" : "Gold",
+    "links" : [
+        {"web" : "www.landmarkluxury.com", 
+        "logo" : "images/landmark-luxury.webp"
+        }
+    ]}
+
+]}
+
+
