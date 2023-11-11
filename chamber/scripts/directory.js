@@ -1,4 +1,4 @@
-const url = "https://kjirstenhernandez.github.io/wdd230/chamber/directory.json"
+const url = "https://kjirstenhernandez.github.io/wdd230/chamber/data/directory.json"
 const cards = document.querySelector("#busCards");
 
 // -- Button Selection and Class Change (Grid vs. List display) -- //
