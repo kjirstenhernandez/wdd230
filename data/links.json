@@ -86,7 +86,15 @@
         {"url" : "lesson09/prophets.html",
         "title" : "Prophets: Fetch Activity"
         }
-    ]}
+    ]},
+    {"lesson" : "10",
+    "links" : [
+        {"url" : "lesson10/weather.html",
+        "title" : "Weather API Practice"
+        }
+    ]
+        
+    }
 ]
 
 }
