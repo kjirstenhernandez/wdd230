@@ -213,6 +213,31 @@ nav a{
 
 /* ==========================  MAIN PAGE: MAIN ELEMENTS  ========================== */
 
+/* Meet and Green Banner */
+        #mgClose::before { 
+            content: "❌";
+            padding: 0;
+            margin: -1rem 0;
+        }
+        #mgClose {
+            position: absolute;
+            left: 1px;
+            background-color: #004f7a00;
+            border: none;
+        }
+        .meetandgreet {
+            position: fixed;
+            left: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #fca211a7;
+            border: 1px solid #091223a9;
+        }
+
+        .meetandgreet p{
+            padding: 0 10px 0 50px;
+        }
+
 /* Row 1 */
 .flex-1 {
     display: flex;

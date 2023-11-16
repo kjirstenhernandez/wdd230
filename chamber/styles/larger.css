@@ -77,6 +77,14 @@
     padding: 1em;
 }
 
+.flex-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#weather {
+    text-align: center;
+}
 
 /* ==========================  DISCOVERY: MAIN ELEMENTS  ========================== */
 

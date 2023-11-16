@@ -12,7 +12,7 @@ const todayWeekday = todayObject.toLocaleString("en-US", {weekday: "long"});
 const todayMonth = todayObject.toLocaleString("en-US", {month: "long"}); 
 const todayDay = todayObject.toLocaleString("en-US", {day: "numeric"});
 const todayYear = todayObject.toLocaleString("en-US", {year: "numeric"});
-console.log(`${todayWeekday}`);
+
 async function getCurrentWeatherData() {
     try{
         const response = await fetch(currentURL);
