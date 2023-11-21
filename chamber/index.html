@@ -57,6 +57,23 @@
             <div id="mission-statement">
                 <p>The Springville Chamber of Commerce works to provide economic prosperity for the people of this community.  We are passionate about developing a pro-business climate, stimulate economic growth, and promote progress through community advocacy, tourism and industry, and retaining and growing local business.</p>
             </div>
+            <div class="business-week">
+                <picture>
+                    <source srcset="images/zeppes-400.webp" media="(max-width: 400px)">
+                    <source srcset="images/zeppes-650.webp" media="(max-width: 300px)">
+                    <img src="images/zeppes-800.webp" alt="zeppes" width="315" height="280">
+                </picture>
+                <div class="business-label">
+                    <h6>Business of<br>the Week</h6>
+                </div>
+            </div>        
+            <section id="action-call">
+                <h3>Get Involved</h3>
+                <p>Join the Chamber of Commerce</p>
+                <a href="join.html"><button id="join-button">Join</button></a>
+            </section>
+        </div>
+        <div class="flex-2">
             <div id="weather">
                 <p>Current Temperature: <span id="currentTemp"></span></p>
                 <span id="weatherDesc"></span>
@@ -66,55 +83,64 @@
                     <p>Upcoming High Temperatures</p>
                 </section>
             </div>
-        </div>
-        <div class="flex-2">
-            <section id="action-call">
-                <h3>Get Involved</h3>
-                <p>Join the Chamber of Commerce</p>
-                <button>Join</button>
+            
+            <section class="upcoming-events">
+                <h2>Upcoming Events</h2>
+                <article class="event-list">
+                    <section>
+                        <h3 class="event-head">Date</h3>
+                        <h3 class="event-head">Event</h3>
+                        <h3 class="event-head">Details</h3>
+                    </section>
+                    <section>
+                        <h4>December 1st</h4>
+                        <p>City Tree-lighting Ceremony</p>
+                        <a href="#">Details</a>
+                    </section>
+                    <section>
+                        <h4>December 16th</h4>
+                        <p>Santa Meet and Greet</p>
+                        <a href="#">Details</a>
+                    </section>
+                    <section>
+                        <h4>December 20th</h4>
+                        <p>Toys for Tots Gift Drive</p>
+                        <a href="#">Details</a>
+                    </section>
+                </article>
+                <!-- DIV ATTEMPT -->
+                <!-- <div class="table">
+                    <div class="row">
+                        <div class="col1 head">Date</div>
+                        <div class="col2 head">Event</div>
+                    </div>
+                    <div class="row">
+                        <div class="col1">Oct 31</div>
+                        <div class="col2">Doggy Trunk-or-Treat</div>
+                    </div>
+                    <div class="row">
+                        <div class="col1">Nov 3</div>
+                        <div class="col2">Farmer's Market</div>
+                    </div>
+                </div> -->
+
+                <!-- TABLE ATTEMPT -->
+                <!-- <table class="events">
+                    <tr>
+                        <th>Date</th>
+                        <th colspan="3">Event</th>
+                    </tr>
+                    <tr>
+                        <td>Oct 31</td>
+                        <td colspan="3">Doggy Trunk-or-Treat</td>
+                    </tr>
+                    <tr>
+                        <td>Nov 3</td>
+                        <td>Farmer's Market</td>
+                    </tr>
+                </table> -->
             </section>
-            <div class="business-week">
-                <picture>
-                    <source srcset="images/zeppes-400.webp" media="(max-width: 400px)">
-                    <source srcset="images/zeppes-650.webp" media="(max-width: 650px)">
-                    <img src="images/zeppes-800.webp" alt="zeppes" width="800" height="420">
-                </picture>
-                <div class="business-label">
-                    <h6>Business of<br>the Week</h6>
-                </div>
-            </div>
         </div>
-        <section class="upcoming-events">
-            <h2>Upcoming Events</h2>
-            <div class="table">
-                <div class="row">
-                    <div class="col">Date</div>
-                    <div class="col">Event</div>
-                </div>
-                <div class="row">
-                    <div class="col">Oct 31</div>
-                    <div class="col">Doggy Trunk-or-Treat</div>
-                </div>
-                <div class="row">
-                    <div class="col">Nov 3</div>
-                    <div class="col">Farmer's Market</div>
-                </div>
-            </div>
-            <!-- <table class="events">
-                <tr>
-                    <th>Date</th>
-                    <th>Event</th>
-                </tr>
-                <tr>
-                    <td>Oct 31</td>
-                    <td>Doggy Trunk-or-Treat</td>
-                </tr>
-                <tr>
-                    <td>Nov 3</td>
-                    <td>Farmer's Market</td>
-                </tr>
-            </table> -->
-        </section>
     </main>
     <footer>
         <div class="social">
