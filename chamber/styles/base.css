@@ -15,6 +15,7 @@ body{
     --header-font: "Bitter", Tahoma, serif;
     --text-font: "Open Sans", sans-serif;
     --light-button: #e5dedb;
+    --link-color: #005D8F;
 }
 
 /* Dark Mode Test */
@@ -26,6 +27,7 @@ body{
     --light-text: #091223;
     --light-button: #00507A;
     --dark-text: #FFFFFF;
+    --link-color: #BBCBCB;
 }
 /* ====================== CONTINUING ELEMENTS ====================== */
 
@@ -325,15 +327,18 @@ nav a{
         .event-list section h4{
             font-family: var(--text-font);
             font-weight: 600;
+            font-size: 1.00rem;
         }
 
         .event-list section p{
             font-family: var(--text-font);
+            font-size: 1rem;
         }
 
         .event-list section a{
             text-decoration: none;
             font-family: var(--text-font);
+            font-size: 1rem;
         }
 
 #weather{
@@ -617,6 +622,26 @@ div label.side {
     .mini p, ul{
         font-size: 1.25rem;
     }
+/* ==========================  THANK YOU PAGE  ========================== */
+
+.thankYou {
+    text-align: center;
+}
+
+.thankYou h1{
+    font-family: var(--header-font);
+    color: var(--dark-text);
+}
+
+#thankYou-message{
+    font-family: var(--text-font);
+    color: var(--dark-text);
+}
+
+#thankYou-message a{
+    text-decoration: none;
+    color: var(--link-color);
+}
 
 /* ==========================  DIRECTORY PAGE  ========================== */
 
@@ -686,6 +711,14 @@ div label.side {
         color: var(--dark-text);
     }
     
+    .busGrid a{
+        font-family: var(--text-font);
+        font-size: 1rem;
+        color: var(--link-color);
+        font-weight: 400;
+        text-decoration: none;
+    }
+    
     .busGrid h5, h6{
         font-family: var(--text-font);
         font-weight: 400;
@@ -705,6 +738,7 @@ div label.side {
         grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr;
         margin: 0;
         padding: 0.5rem;
+        text-wrap: wrap;
     }
 
     .busList section > * {
@@ -719,10 +753,24 @@ div label.side {
         font-family: var(--text-font);
         font-weight: 600;
         font-size: 1rem;
+        text-wrap: wrap;
     }
 
-    .busList h5, h6 {
+    .busList h5{
         font-family: var(--text-font);
         font-size: 1rem;
         font-weight: 400;
+        text-wrap: wrap;
+    }
+
+    .busList a{
+        font-family: var(--text-font);
+        font-size: 1rem;
+        font-weight: 400;
+        text-decoration: none;
+        color: var(--link-color);
+    }
+
+    .busList h6{
+        display: none;
     }

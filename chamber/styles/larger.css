@@ -108,9 +108,24 @@
             position: relative;
         }
 
-    .upcoming-events {
-        max-height: 25rem;
-    }
+        /* Upcoming Events */
+        .upcoming-events {
+            max-height: 25rem;
+        }
+
+        .event-list section h4{
+            font-family: var(--text-font);
+            font-weight: 600;
+        }
+
+        .event-list section p{
+            font-family: var(--text-font);
+        }
+
+        .event-list section a{
+            text-decoration: none;
+            font-family: var(--text-font);
+        }
 
 /* ==========================  DISCOVERY: MAIN ELEMENTS  ========================== */
 
@@ -139,6 +154,15 @@
 
 .benefitSection {
     grid-column: 2/3;
+}
+/* ==========================  DISCOVERY  ========================== */
+
+.busList h6 {
+    display: inline;
+    font-family: var(--text-font);
+    font-size: 1rem;
+    font-weight: 400;
+    text-wrap: wrap;
 }
 
 

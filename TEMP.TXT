@@ -33,7 +33,7 @@ const displayBusinessData = (businesses) => {
         const businessName = document.createElement("h3");
         const businessAddress = document.createElement("h5");
         const businessPhone = document.createElement("h5");
-        const businessWeb = document.createElement("a");
+        const businessWeb = document.createElement("h5");
         const businessLevel = document.createElement("h6");
         businessLogo.setAttribute("src", business.links[0].logo);
         businessLogo.setAttribute("alt", `${business.name} logo`);
@@ -43,8 +43,7 @@ const displayBusinessData = (businesses) => {
         businessName.innerHTML = business.name;
         businessAddress.innerHTML = business.address;
         businessPhone.innerHTML = business.phone;
-        businessWeb.setAttribute("href", `${business.links[0].web}`);
-        businessWeb.innerHTML = "website";
+        businessWeb.innerHTML = `${business.links[0].web}`
         businessLevel.innerHTML = `Level: ${business.membership}`;
         card.appendChild(businessLogo);
         card.appendChild(businessName); 

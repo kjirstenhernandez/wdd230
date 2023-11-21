@@ -23,6 +23,25 @@ header h1{
     padding: 1em;
 }
 
+/* Upcoming Events */
+.upcoming-events {
+    max-height: 25rem;
+}
+
+.event-list section h4{
+    font-family: var(--text-font);
+    font-weight: 600;
+}
+
+.event-list section p{
+    font-family: var(--text-font);
+}
+
+.event-list section a{
+    text-decoration: none;
+    font-family: var(--text-font);
+}
+
 /* REMOVE AFTER W06 */
 
     .small-view {
