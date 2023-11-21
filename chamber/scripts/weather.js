@@ -61,8 +61,8 @@ function displayForecastWeather(data) {
         const unixDT = entry.dt;
         const milliseconds = unixDT * 1000;
         const dateObject = new Date(milliseconds);
-        const weekday = dateObject.toLocaleString("en-US", {weekday: "long"}); 
-        const month = dateObject.toLocaleString("en-US", {month: "long"}); 
+        const weekday = dateObject.toLocaleString("en-US", {weekday: "short"}); 
+        const month = dateObject.toLocaleString("en-US", {month: "short"}); 
         const day = dateObject.toLocaleString("en-US", {day: "numeric"});
         const year = dateObject.toLocaleString("en-US", {year: "numeric"});
         const hour = dateObject.toLocaleString("en-US", {hour: "numeric"});

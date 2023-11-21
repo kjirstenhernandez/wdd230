@@ -16,6 +16,7 @@ body{
     --text-font: "Open Sans", sans-serif;
     --light-button: #e5dedb;
     --link-color: #005D8F;
+    --dark-text-stable: #11202C;
 }
 
 /* Dark Mode Test */
@@ -251,11 +252,12 @@ nav a{
     text-align: center;
     background-color: var(--secondary-color);
     font-family: var(--text-font);
-    color: var(--dark-text);
+    color: var(--dark-text-stable);
     padding: 1em;
     margin: 1em;
     max-width: 30em;
     flex-shrink: 3;
+    border-radius: 10px;
 }
 
 #action-call{
@@ -266,6 +268,7 @@ nav a{
     padding: 1em;
     margin: 1em;
     flex: 4;
+    border-radius: 10px;
 }
 
 #join-button {
@@ -303,6 +306,7 @@ nav a{
             color: var(--light-text);
             box-shadow: 10px 5px 5px #9d9492;
             margin: 1em 2em;
+            border-radius: 10px;
         }
 
         .business-label h6{
@@ -318,52 +322,74 @@ nav a{
             font-weight: 300;
         }
         
-        .event-head {
-            font-family: var(--header-font);
-            color: var(--dark-text);
-            font-size: 1.5rem;
-        }
+/* Weather Section */
+    #weather{
+        margin: 1em;
+        padding: 2em;
+        background-color: #C8BFBC;
+        border-radius: 10px;
+        font-size: 90%;
+    }
 
-        .event-list section h4{
-            font-family: var(--text-font);
-            font-weight: 600;
-            font-size: 1.00rem;
-        }
+    #weather h2{
+        font-size: 110%;
+    }
 
-        .event-list section p{
-            font-family: var(--text-font);
-            font-size: 1rem;
-        }
+    /* Current Weather Section */
+    .currentWeather {
+        text-align: center;
+    }
 
-        .event-list section a{
-            text-decoration: none;
-            font-family: var(--text-font);
-            font-size: 1rem;
-        }
+    .currentWeather p{
+        font-size: 90%;
+        font-family: var(--text-font);
+        font-weight: 600;
+    }
 
-#weather{
-    margin: 1em;
-    padding: 2em;
-    background-color: #C8BFBC;
-}
+    .currentWeather span{
+        font-size: 90%;
+        font-family: var(--text-font);
+    }
 
-#weather p{
-    font-family: var(--text-font);
-    color: var(--dark-text);
-    font-size: 90%;
-    font-weight: 600;
-}
+    .currentWeather img{
+        width: 6rem;
+        height: auto;
+        margin-top: -10px;
+    }
 
-#weather p span{
-    font-weight: 400;
-}
+    #weather h2{
+        font-family: var(--header-font);
+        color: var(--dark-text-stable);
+        text-align: center;
+    }
+
+    #futureForecast p{
+        /* Temperatures */
+        font-family: var(--text-font);
+        color: var(--dark-text-stable);
+        font-size: 90%;
+        font-weight: 400;
+        margin-top: 0;
+    }
+
+    #futureForecast span {
+        /* Date */
+        font-size: 85%;
+        font-weight: 600;
+        color: var(--dark-text-stable);
+    }
+
+    #futureForecast p
+
+    #weatherDesc {
+        color: var(--dark-text-stable);
+    }
 
 /* --- Table of Events --- */
 .upcoming-events{
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    background-color: #C8BFBC;
 }
 
 .upcoming-events h2{
@@ -384,6 +410,13 @@ nav a{
 	padding: 0.25rem;
 }
 
+.event-list section p{
+    color: var(--dark-text);
+    font-family: var(--text-font);
+    font-family: var();
+    font-size: 1rem;
+}
+
 .event-list section:nth-child(even){
     background-color: #e5dedb98;
 }
@@ -392,31 +425,24 @@ nav a{
 	margin: 0 1rem;
 }
 
-/* .table{
-    padding: 1rem 2rem;
-    width: 100%;
-    margin-top: 2rem;
-    margin: 0 auto;
-    text-align: center;
+.event-head {
+    font-family: var(--header-font);
+    color: var(--dark-text);
+    font-size: 1.5rem;
+}
+
+.event-list section h4{
     font-family: var(--text-font);
-} */
-
-/* .row{
-    display: grid;
-	grid-template-columns: 100px 100px;
-	align-items: center;
-	text-align: center;
+    font-weight: 600;
+    font-size: 1.00rem;
 }
 
-.col {
-	padding: 10px;
-    width: 30em;
+.event-list section a{
+    text-decoration: none;
+    color: var(--link-color);
+    font-family: var(--text-font);
+    font-size: 1rem;
 }
-
-.row:first-child{
-    font-weight: 700; 
-    
-}*/
 
 /* -----------  FOOTER ELEMENTS -----------*/ 
 
