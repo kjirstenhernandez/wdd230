@@ -273,9 +273,19 @@ nav a{
     border-radius: 10px;
 }
 
+#action-call p{
+    margin-bottom: 40px;
+}
+
 #join-button {
-    padding: 0.5rem;
+    
+    padding: 0.5rem 1rem;
     border-radius: 7px;
+    background-color: var(--light-button);
+    color: var(--dark-text);
+    text-decoration: none;
+    box-shadow: 5px 5px 5px #03263994;
+    
 }
 
 /* Row 2 */

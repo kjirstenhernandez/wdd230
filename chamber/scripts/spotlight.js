@@ -18,6 +18,7 @@ const randomChoice = (businesses) => {
     console.log(spotlightArray);
     const randomChoice = spotlightArray[Math.floor(Math.random() * spotlightArray.length)];
     console.log(randomChoice);
+    spotlightLogo.removeAttribute("src");
     spotlightLogo.setAttribute("src", randomChoice.links[0].logo);
 }
 
