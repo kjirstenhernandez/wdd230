@@ -5,7 +5,6 @@ const spotlightLogo = document.querySelector("#spotlight-logo");
 async function getBusinessData(url) {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data);
     randomChoice(data.businesses);
 }
 
@@ -15,9 +14,7 @@ const randomChoice = (businesses) => {
             spotlightArray.push(business);
         }    
     }))
-    console.log(spotlightArray);
     const randomChoice = spotlightArray[Math.floor(Math.random() * spotlightArray.length)];
-    console.log(randomChoice);
     spotlightLogo.removeAttribute("src");
     spotlightLogo.setAttribute("src", randomChoice.links[0].logo);
 }
