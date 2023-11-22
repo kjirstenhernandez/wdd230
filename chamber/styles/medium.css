@@ -15,12 +15,13 @@ header h1{
 }
 
 .business-label{
-    top: 2.5em;
+    top: 10px;
 }
 .business-label h6{
-    font-size: 110%;
+    font-size: 1.15rem;
     margin: auto;
     padding: 1em;
+
 }
 
 /* Upcoming Events */

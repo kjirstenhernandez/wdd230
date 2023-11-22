@@ -97,12 +97,15 @@
 
         /* Business of the Week */
         .business-label {
-            top: 3em;
+            top: 10px;
+            width: 10rem;
         }
         .business-label h6{
-            font-size: 120%;
+            font-size: 1.20rem;
             margin: auto;
             padding: 1em;
+            text-align: center;
+
         }
         .business-week {
             position: relative;

@@ -21,11 +21,12 @@ listbutton.addEventListener("click", () => {
 async function getBusinessData(url) {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data);
+    // console.table(data);
     displayBusinessData(data.businesses);
 }
 
 const displayBusinessData = (businesses) => {
+    console.table(businesses);
     businesses.forEach((business => {
         const card = document.createElement("section");
         card.className = "businessCard";
