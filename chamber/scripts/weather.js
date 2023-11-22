@@ -18,7 +18,6 @@ async function getCurrentWeatherData() {
         const response = await fetch(currentURL);
         if (response.ok){
             const data = await response.json();
-            console.table(data);
             displayCurrentWeather(data);
         }
         else {
@@ -35,7 +34,6 @@ async function getForecastWeatherData() {
         const response = await fetch(forecastURL);
         if (response.ok){
             const data = await response.json();
-            console.table(data);
             displayForecastWeather(data);
         }
         else {
@@ -49,7 +47,6 @@ async function getForecastWeatherData() {
 
 function displayCurrentWeather(data) {
     currentTemp.innerHTML = `${data.main.temp}° F`;
-    console.log(data.weather[0].description);
     icon.setAttribute("src", `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
     weatherDescription.innerHTML = data.weather[0].description;
 }

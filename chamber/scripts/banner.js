@@ -6,7 +6,6 @@ const dayWeekday = dayObject.toLocaleString("en-US", {weekday: "long"});
 const dayMonth = dayObject.toLocaleString("en-US", {month: "long"}); 
 const dayDay = dayObject.toLocaleString("en-US", {day: "numeric"});
 const dayYear = dayObject.toLocaleString("en-US", {year: "numeric"});
-console.log(dayWeekday);
 
 if (dayWeekday === "Monday" || dayWeekday === "Tuesday" || dayWeekday === "Wednesday"){
     const info = document.createElement("p");
