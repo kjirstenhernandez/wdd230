@@ -427,7 +427,6 @@ nav a{
 .event-list section p{
     color: var(--dark-text);
     font-family: var(--text-font);
-    font-family: var();
     font-size: 1rem;
 }
 
@@ -786,7 +785,6 @@ div label.side {
         grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr;
         margin: 0;
         padding: 0.5rem;
-        text-wrap: wrap;
     }
 
     .busList section > * {
@@ -801,14 +799,12 @@ div label.side {
         font-family: var(--text-font);
         font-weight: 600;
         font-size: 1rem;
-        text-wrap: wrap;
     }
 
     .busList h5{
         font-family: var(--text-font);
         font-size: 1rem;
         font-weight: 400;
-        text-wrap: wrap;
     }
 
     .busList a{
