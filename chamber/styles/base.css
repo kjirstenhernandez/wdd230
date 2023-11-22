@@ -597,6 +597,7 @@ fieldset label.top input{
     font-size: 0.75rem;
     width: 100%;
     max-width: 20rem;
+    height: 44px;
 }
 
 fieldset #coDescription{
