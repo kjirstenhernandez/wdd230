@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Rethink+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots Rentals - Home</title>    
+    <meta name="description" content="The official website for Scoots Scooter Rentals, located on the island of Cozumel, Mexico" >
+    <meta name="author" content="Kjirsten Hernandez">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Needs to be completed -->
+    <meta property="og:title" content="" >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="#">
+    <meta property="og:url" content="#" >
+</head>
+<body>
+    <header> 
+        <a id="logo-link" href="index.html">
+            <img class="logo" src="images/Logo.png" alt="favicon">
+        </a>
+    </header>
+    <nav class="navigation">
+        <!-- <button id="navButton"></button> -->
+        <ul class="nav-list">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="main-hero">
+        <picture>
+            <source srcset="images/hero-300.webp" media="(max-width: 300px)">
+            <source srcset="images/hero-500.webp" media="(max-width: 500px)">
+            <source srcset="images/hero-800.webp" media="(max-width: 800px)">
+            <img class="hero-img" src="images/hero-1100.webp" alt="cozumel-hero">
+        </picture>
+        <h1>Welcome to Cozumel</h1>
+        <div class="call-box">
+            <a class="book" href="reservations.html">Book Now</a>
+        </div>
+    </div>  
+    <main class="main-content">
+        <div id="weather-highlight">
+            <h4>Today's High</h4>
+            <span id="todayHigh"></span>
+            <span class="weatherIcon" src="#" alt="weather-icon" width="50" height="50"></span>
+        </div>
+        <div>
+            <section class="main-card" id="mission-statement">
+                <h3>Why Choose Scoots</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, totam est. Doloremque ut asperiores iure pariatur, rerum id ratione ipsam nemo quibusdam totam corrupti odit officia soluta voluptatem modi suscipit!</p>
+            </section>
+            <section class="main-card" id="weather-detailed">
+                <h5>Weather in Cozumel</h5>
+            </section>
+        </div>
+        <div>
+            <h3>Rental Types</h3>
+            <section class="main-card" id="honda-scooters">
+                <h4>Honda Scooters</h4>
+                <ul>
+                    <li> Honda Metropolitan (49cc) - 1 Passenger</li>
+                    <li> Honda Dio (110cc) - 2 Passengers</li>
+                    <li> Honda PCX150 (149cc) - 2 Passengers</li>
+                </ul>
+            </section>
+            <section class="main-card" id="honda-photo">
+                <picture>
+                    <source srcset="images/metro-300.webp" media="(max-width: 300px)">
+                    <img src="images/metro-500.webp" loading="lazy" width="500">
+                </picture>
+            </section>
+            <section class="main-card" id="side-by-side-photo">
+                <picture>
+                    <source srcset="images/pioneer-300.webp" media="(max-width: 300px)">
+                    <img src="images/pioneer-500.webp" loading="lazy" width="500">
+                </picture>
+            </section>
+            <section class="main-card" id="side-by-sides">
+                <h4>Side-by-Side ATVs</h4>
+                <ul>
+                    <li>Honda Pioneer 1000 - 4 Passengers</li>
+                </ul>
+            </section>
+            <section class="main-card" id="jeeps">
+                <h4>Jeeps</h4>
+                <ul>
+                    <li> Jeep Wrangler (4 door manual with A/C) - 5 Passengers</li>
+                    <li> Jeep Wrangler (2 door manual with open air) - 4 Passengers</li>
+                </ul>
+            </section>
+            <section class="main-card" id="jeep-photo">
+                <picture>
+                    <source srcset="images/wrangler-300.webp" media="(max-width: 300px)">
+                    <img src="images/wrangler-500.webp" loading="lazy" width="500">
+                </picture>
+            </section>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<!-- Scripts -->
+</html>
