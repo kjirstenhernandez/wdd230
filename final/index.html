@@ -47,9 +47,9 @@
     </div>  
     <main class="main-content">
         <div id="weather-highlight">
+            <button id="closeButton"></button>
             <h4>Today's High</h4>
             <span id="todayHigh"></span>
-            <span class="weatherIcon" src="#" alt="weather-icon" width="50" height="50"></span>
         </div>
         <div>
             <section class="main-card" id="mission-statement">
@@ -57,7 +57,14 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, totam est. Doloremque ut asperiores iure pariatur, rerum id ratione ipsam nemo quibusdam totam corrupti odit officia soluta voluptatem modi suscipit!</p>
             </section>
             <section class="main-card" id="weather-detailed">
-                <h5>Weather in Cozumel</h5>
+                <h5>Current Weather in Cozumel</h5>
+                <span id="currentTemp"></span><br>
+                <img id="currentIcon" src="#" alt="weather-icon" width="80" height="80">
+                <span id="weatherDesc"></span><br>
+                <span id="currentHumidity"></span><br>
+                <br>
+                <span id="mainWeather"></span><br>
+                <span id="tomorrowTemp"></span><br>
             </section>
         </div>
         <div>
@@ -107,5 +114,6 @@
 
     </footer>
 </body>
-<!-- Scripts -->
+<script src="scripts/weather.js"></script>
+<script src="scripts/highlight.js"></script>
 </html>

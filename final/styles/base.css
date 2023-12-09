@@ -141,3 +141,28 @@ header {
 
 /* Weather Pop-Up */
 
+#weather-highlight {
+    position: fixed;
+    background-color: #fef8ebd8;
+    padding: 1rem;
+    left: 5px;
+    top: 10px;
+    border-radius: 10px;
+    z-index: 999;
+
+}
+
+#closeButton::before {
+    content: "🅇";
+    padding: 0;
+    margin: -1px;
+}
+
+#closeButton {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    margin: -1;
+    border: none;
+    border-radius: 5px;
+}
