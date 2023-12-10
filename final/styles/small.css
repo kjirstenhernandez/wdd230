@@ -1,5 +1,45 @@
-@media only screen and (max-width: 500px){
+/* -------- Media Query for Small Devices  -------- */
+
+@media only screen and (max-width: 700px){
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .footer-main {
+        flex-direction: column;
+    }
 
 
+/* ============================================================= */
+/*                   HOME PAGE: MAIN CONTENT                     */
+/* ============================================================= */
+
+
+/* Main Content and Grid */
+
+#main-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.col1 {
+    grid-column: 1/2;
+}
+
+.col2 {
+    grid-column: 1/2;
+}
+.honda-card, .atv-card .jeep-card {
+    grid-column: 1/2;
+}
+
+
+
+/* ---------------------------- */
+/* No code below this point */
 } 
-/* No Code Below this Point! */
