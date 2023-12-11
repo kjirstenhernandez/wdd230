@@ -1,0 +1,51 @@
+{"rentals":[
+    {"type" : "honda metro",
+    "prices" : [
+        {"reserve-half" : "$20", 
+        "reserve-whole" : "$30",
+        "walk-half" : "$25",
+        "walk-whole" : "$35"
+        }
+    ]},
+    {"type" : "honda dio",
+    "prices" : [
+        {"reserve-half" : "$30", 
+        "reserve-whole" : "$40",
+        "walk-half" : "$35",
+        "walk-whole" : "$45"
+        }
+    ]},
+    {"type" : "honda pcx150",
+    "prices" : [
+        {"reserve-half" : "$40", 
+        "reserve-whole" : "$50",
+        "walk-half" : "$45",
+        "walk-whole" : "$55"
+        }
+    ]},
+    {"type" : "honda pioneer",
+    "prices" : [
+        {"reserve-half" : "$50", 
+        "reserve-whole" : "$70",
+        "walk-half" : "$60",
+        "walk-whole" : "$125"
+        }
+    ]},
+    {"type" : "jeep wrangler 4-door",
+    "prices" : [
+        {"reserve-half" : "$70", 
+        "reserve-whole" : "$100",
+        "walk-half" : "$85",
+        "walk-whole" : "$125"
+        }
+    ]},
+    {"type" : "hjeep wrangler 2-door",
+    "prices" : [
+        {"reserve-half" : "$60", 
+        "reserve-whole" : "$85",
+        "walk-half" : "$70",
+        "walk-whole" : "$90"
+        }
+    ]}
+
+]}

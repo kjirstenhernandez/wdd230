@@ -107,10 +107,6 @@ header {
 
 /* Reservation Button  */
 
-#call-box {
-    text-align: center;
-}
-
 .book {
     background-color: var(--light-color);
     font-family: var(--sans-text);
@@ -351,3 +347,28 @@ footer-bottom {
 .card-desc li{
     list-style-type: none;
 }
+
+/* =============================================================== */
+/*                    RENTAL PAGE: MAIN CONTENT                    */
+/* =============================================================== */
+
+.rental-content {
+    margin-top: -10rem;
+}
+.rental-content h1{
+    text-align: center;
+    font-family: var(--sans-text);
+    font-weight: 400;
+    letter-spacing: 0.75rem;
+    color: var(--light-color);
+    font-size: 2.5rem;
+}
+
+/* ---- Types of Rentals --- */
+
+#rentalType-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+    /* Same rules apply for the Image Cards under Main */
