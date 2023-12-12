@@ -24,7 +24,6 @@ async function getPriceInformation(url){
 }
 
 const populateReservedPriceInfo = (rental) => {
-    console.table(rental)
 
     // Metro Info
     const metroHalf = document.createElement("li");
@@ -76,7 +75,6 @@ const populateReservedPriceInfo = (rental) => {
 }
 
 const populateWalkPriceInfo = (rental) => {
-    console.table(rental)
 
     // Metro Info
     const metroHalf = document.createElement("li");
