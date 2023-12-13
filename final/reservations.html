@@ -57,10 +57,10 @@
                     <h4 class="sectionTitle">Applicant Information</h4>
                     <label class="top">First Name <input type="text" name="fname" id=fname placeholder="Jane or John" required></label>
                     <label class="top">Last Name <input type="text" name="lname"  id=lname placeholder="Doe" required></label>
-                    <label class="top">Phone Number <input type="tel" name="phone"  id=lname placeholder="Doe" required></label>
+                    <label class="top">Phone Number <input type="tel" name="phone"  id=phoneNumber placeholder="Doe" required></label>
                     <label class="top">Email Address<input type="text" name="email" placeholder="johndoe@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required></label>
                     <label class="top">Drivers License Number<input type="number" name="license" id="drivers-license" placeholder="e.g. 18395937248" required></label>
-                    <label class="top">State/Province<input type="text" name="state" id="drivers-license" placeholder="e.g. 18395937248" required></label>
+                    <label class="top">State/Province<input type="text" name="state" id="state-province" placeholder="e.g. 18395937248" required></label>
                     <label class="top">Country <select id="country" name="country">
                         <option value="Afghanistan">Afghanistan</option>
                         <option value="Åland Islands">Åland Islands</option>
@@ -311,10 +311,10 @@
                 <fieldset class="reservation-info">
                     <legend>Rental Information</legend>
                     <h4 class="sectionTitle">Rental Information</h4>
-                    <label class="top">Date of Pick-up<input type=date" id="pickup" name="pickup" required></label>
-                    <label class="top">Date of Drop-off<input type=date" id="dropoff" name="dropoff" required></label>
+                    <label class="top">Date of Pick-up<input type="date" id="pickup" name="pickup" required></label>
+                    <label class="top">Date of Drop-off<input type="date" id="dropoff" name="dropoff" required></label>
                     <label class="top">Type of Rental<select id="rentalType" name="rentalType" required>
-                        <option value=""></option>
+                        <option value="">Choose Rental Type</option>
                         <option value="Honda Metro Scooter">Honda Metro Scooter</option>
                         <option value="Honda Dio Scooter">Honda Dio Scooter</option>
                         <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>

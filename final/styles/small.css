@@ -10,6 +10,10 @@
         flex-direction: column;
     }
 
+    .nav-list li{
+        padding: 1rem;
+    }
+
     .footer-main {
         flex-direction: column;
     }
