@@ -90,6 +90,27 @@ fieldset label.top input, label.top select, label.top {
     font-size: 0.75rem;
 }
 
+/* ============================================================= */
+/*                RESERVATIONS PAGE: MAIN CONTENT                */
+/* ============================================================= */
+
+.contactUs-content{
+    grid-template-columns: 1fr;
+}
+
+.contactUsForm {
+    grid-column: 1/2;
+}
+
+.contactInformation {
+    grid-column: 1/2;
+}
+
+.maps{
+    grid-column: 1/2;
+}
+
+
 /* ---------------------------- */
 /* No code below this point */
 } 

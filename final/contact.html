@@ -1,48 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Lato:wght@100;300;400;700;900&family=Rethink+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scoots Rentals - Contact Us</title>    
-    <meta name="description" content="The Contact Page for Scoots Scooter Rentals, We Are Happy to Help Answer Questions!" >
+    <meta name="description" content="Contact Us at Scoots Scooter Rentals, located on the island of Cozumel, Mexico" >
     <meta name="author" content="Kjirsten Hernandez">
     <link rel="icon" href="images/favicon.ico">
     <!-- Needs to be completed -->
-    <meta property="og:title" content="" >
+    <meta property="og:title" content="Contact Us at Scoots Scooter Rentals, located on the island of Cozumel, Mexico" >
     <meta property="og:type" content="website">
     <meta property="og:image" content="#">
     <meta property="og:url" content="#" >
 </head>
 <body>
-    <header>
+    <header> 
         <a id="logo-link" href="index.html">
             <img class="logo" src="images/Logo.png" alt="favicon">
         </a>
-        <nav>
-            <button id="navButton"></button>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="rentals.html">Rentals</a></li>
-                <li><a href="reservations.html">Reservations</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
-        </nav>
     </header>
-    <div class="hero">
+    <nav class="navigation">
+        <!-- <button id="navButton"></button> -->
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="main-hero">
         <picture>
             <source srcset="images/hero-300.webp" media="(max-width: 300px)">
             <source srcset="images/hero-500.webp" media="(max-width: 500px)">
             <source srcset="images/hero-800.webp" media="(max-width: 800px)">
-            <img src="images/hero-1100.webp" alt="cozumel-hero">
+            <img class="hero-img" src="images/hero-1100.webp" alt="cozumel-hero">
         </picture>
-
-    </div>
-    <main>
-
+        <h1>Contact Us</h1>
+    </div>  
+    <main class="contactUs-content">
+        <div class="contactInformation">
+            <h3>Scoots Rental Locations</h3>
+            <section class="locationCard" id="playaLocation">
+                <h4>Playa Del Carmen Location</h4>
+                <p>Calle 2 Nte 100, Centro, 77600 Cozumel</p>
+                <p>+52 987 872 9800</p>
+                <picture>
+                    
+                </picture><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.8721838608126!2d-86.95266422475741!3d20.51146528101162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59ceb6543fb1%3A0x5b766d38d2361c94!2sAv.%20Rafael%20E.%20Melgar%20no%20149%2C%20Centro%2C%2077600%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1702428218251!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="playaMap"></iframe>
+            </section>
+            <section class="locationCard" id="terminalLocation">
+                <h4>Terminal Puerta Maya Location</h4>
+                <p>Av. Rafael E Melga Sn, Zona Hotelera Nt., 77675 Cozumel</p>
+                <p>+52 987 857 0091</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d24794.49979099651!2d-86.99029213923804!3d20.49904643103239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTerminal%20Puerta%20Maya%20cozumel!5e0!3m2!1sen!2sus!4v1702428168866!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="terminalMap"></iframe>
+            </section>
+        </div>
+        <form action="thankyou.html" method="get" class=contactUsForm">
+            <div class="contactUsForm">
+                <fieldset class="contactInfo">
+                    <h3>Email Us</h3>
+                    <label class="top">Full Name <input type="text" name="fname" id=contactName placeholder="John Doe" required></label>
+                    <label class="top">Email <input type="email" name="email" id=contactEmail pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="johndoe@gmail.com" required></label>
+                    <label class="top">Questions or Comments</label>
+                    <textarea id="contactComments" name="comments" rows="4" placeholder="Type Here"></textarea><br>
+                    <input type="submit" value="Send" class="submitButton" id="contactUsButton">
+                </fieldset>
+            </div>
+        </form>
     </main>
     <footer>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-column">
+                    <h3>Social Media</h3>
+                    <a href="www.instagram.com" class="footer-link">Instagram</a>
+                    <a href="www.facebook.com" class="footer-link">Facebook</a>
+                    <a href="www.twitter.com" class="footer-link">Twitter</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Helpful Links</h3>
+                    <a href="contact.html" class="footer-link">Contact Us</a>
+                    <a href="attributions.html" class="footer-link">Attributions</a>
 
+                </div>
+                <div class="footer-column">
+                    <h3>Interesting Tidbits</h3>
+                    <a href="#" class="footer-link">Personal Waiver</a>
+                    <a href="#" class="footer-link">Tourism in Cozumel</a>
+                    <a href="#" class="footer-link">TripAdvisor for Cozumel</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="copyright">&copy; Kjirsten Hernandez 2023</span>
+                <a href="https://facebook.com" target="_blank" class="footer-social">
+                    <img src="images/fb-icon.png" alt="fb icon" width="25">
+                </a>
+                <a href="https://twitter.com" target="_blank" class="footer-social">
+                    <img src="images/twitter-icon.png" alt="twitter icon" width="25">
+                </a>
+                <a href="https://instagram.com" target="_blank" class="footer-social">
+                    <img src="images/insta-icon.png" alt="instagram icon" width="25">
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
-<!-- Scripts -->
 </html>
