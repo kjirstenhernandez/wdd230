@@ -32,9 +32,13 @@
     top: -10rem;
 }
 
-.book {
-    top: -10rem;
+#button-grid{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 0rem;
 }
+
 .col1 {
     grid-column: 1/2;
 }
