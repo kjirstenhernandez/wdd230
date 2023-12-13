@@ -3,7 +3,7 @@
 /* ============================================================= */
 
             /* Behind the Scenes */
-:root{
+:root {
     --primary-color: #288da3;
     --secondary-color: #33AFBE;
     --tertiary-color: #AADDE0;
@@ -11,8 +11,10 @@
     --dark-color: black;
     --sans-text: "Rethink Sans", Tahoma, sans-serif;
     --sans-text2: "Lato", Tahoma, sans-serif;
-    --serif-text: "EB Garamond", serif;
+    --serif-text: "EB Garamond", Times,serif;
 }
+
+
 body {
     background-color: var(--primary-color);
     margin: 0;
@@ -140,7 +142,7 @@ footer a{
     transition: color 0.3s;
 }
 
-footer a::hover{
+footer a:hover{
     color: #ffffff;
 }
 
@@ -228,7 +230,6 @@ footer-bottom {
     position: absolute;
     left: 1px;
     top: 1px;
-    margin: -1;
     border: none;
     border-radius: 5px;
 }
@@ -263,12 +264,12 @@ footer-bottom {
     margin: 1rem;
     border-radius: 10px;
     color: var(--dark-color);
+    }
 
     #currentTemp {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         font-weight: 400;
     }
-}
 
     #weather-detailed h3{
         font-family: var(--sans-text2);
